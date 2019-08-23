@@ -1,0 +1,22 @@
+{
+    "name": "sansitu/amqlib",
+    "description": "This library for the RabbitMQ message system",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santosh",
+            "email": "santosh_dms2003@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Amqlib\\": "src/"
+        }
+    },
+    "require": {
+        "php-amqplib/php-amqplib": "^2.10"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

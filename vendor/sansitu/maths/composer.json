@@ -1,0 +1,20 @@
+{
+    "name": "sansitu/maths",
+    "description": "This library is a test one. Used to do some simply math operation.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santosh",
+            "email": "santosh_dms2003@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Maths\\": "src/"
+        }
+    },
+    "require": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
