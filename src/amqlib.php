@@ -1,5 +1,5 @@
 <?php
-namespace amqlib;
+namespace Amqlib;
 
 chdir(dirname(__DIR__));
 
@@ -10,7 +10,7 @@ use PhpAmqpLib\Connection\AMQPConnection;
 use PhpAmqpLib\Message\AMQPMessage;
 use Maths\Maths;
 
-class amqlib
+class Amqlib
 {
     private $passive = false;
     private $durable = true;
