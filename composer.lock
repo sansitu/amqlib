@@ -4,8 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3e3e0fd5a3bbe831e7ad8e0bd1315f06",
-    "packages": [
+    "content-hash": "5b5c87f20a0ead40008e7bd004e79513",
+    "packages": [],
+    "packages-dev": [
         {
             "name": "php-amqplib/php-amqplib",
             "version": "v2.10.0",
@@ -79,47 +80,15 @@
                 "rabbitmq"
             ],
             "time": "2019-08-08T18:28:18+00:00"
-        },
-        {
-            "name": "sansitu/maths",
-            "version": "2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sansitu/maths.git",
-                "reference": "9017545e98a6729ae75a9b70491d51be2cae9099"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sansitu/maths/zipball/9017545e98a6729ae75a9b70491d51be2cae9099",
-                "reference": "9017545e98a6729ae75a9b70491d51be2cae9099",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Maths\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Santosh",
-                    "email": "santosh_dms2003@yahoo.com"
-                }
-            ],
-            "description": "This library is a test one. Used to do some simply math operation.",
-            "time": "2019-08-22T17:06:23+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=5.3.0"
+    },
     "platform-dev": []
 }
