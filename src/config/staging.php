@@ -2,12 +2,12 @@
 
 /****** Config for publishing and subscribing of the messages in Rabbitmq ******/
 
-const AMQP_URL = "devstg.mpokket.org";
+const AMQP_URL = "";
 Const AMQP_PORT = 5672;
-const AMQP_USERNAME = "root";
-const AMQP_PASSWORD = "root";
-const AMQP_VHOST = 'stg';
+const AMQP_USERNAME = "";
+const AMQP_PASSWORD = "";
+const AMQP_VHOST = '';
 
-const API_URL = 'https://devstg.mpokket.org/amq/v1/messages';
-const API_USERNAME = 'mpokket123';
-const API_PASSWORD = 'api123';
+const API_URL = '';
+const API_USERNAME = '';
+const API_PASSWORD = '';

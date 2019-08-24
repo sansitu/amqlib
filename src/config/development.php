@@ -8,6 +8,6 @@ const AMQP_USERNAME = "guest";
 const AMQP_PASSWORD = "guest";
 const AMQP_VHOST = '/';
 
-const API_URL = 'https://localhost.mpokket.app/amq/v1/messages';
-const API_USERNAME = 'mpokket123';
-const API_PASSWORD = 'api123';
+const API_URL = '';
+const API_USERNAME = '';
+const API_PASSWORD = '';
