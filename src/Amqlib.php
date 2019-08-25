@@ -61,15 +61,20 @@ class Amqlib
             ));
 
             $response = curl_exec($curl);
+            $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
             $err = curl_error($curl);
 
             curl_close($curl);
 
             if ($err) {
-                echo "cURL Error #:" . $err;
+                $responseInfo['HTTP_CODE'] = 400;
+                $responseInfo['MESSAGE'] = "cURL Error #:" . $err;
             } else {
-                echo $response;
+                $responseInfo['HTTP_CODE'] = $httpcode;
+                $responseInfo['MESSAGE'] = json_decode($response);
             }
+
+            return $responseInfo;
         }
         catch(Exception $e) {
             $logger->error($e->getMessage());
