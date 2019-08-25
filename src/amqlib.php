@@ -41,6 +41,7 @@ class Amqlib
 
             $headers = array(
                 "Content-Type: application/x-www-form-urlencoded",
+                "cache-control: no-cache",
                 'Authorization: Basic '. base64_encode($authorization)
             );
 
@@ -49,6 +50,7 @@ class Amqlib
             curl_setopt_array($curl, array(
                 CURLOPT_URL => API_URL,
                 CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_ENCODING => "",
                 CURLOPT_MAXREDIRS => 10,
                 CURLOPT_TIMEOUT => 30,
                 CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
